@@ -1,0 +1,21 @@
+{
+  "name": "homebridge-centralfan",
+  "version": "1.0.0",
+  "description": "Your Central Fan HVAC Companion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Jackman",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "rpi-gpio": "^0.9.1"
+  }
+}
